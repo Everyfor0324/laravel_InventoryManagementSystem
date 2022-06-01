@@ -45,7 +45,6 @@ RUN chmod +x /var/www/html/docker.sh
 EXPOSE 9000
 CMD ["php-fpm"]
 CMD ["docker-compose up -d"]
-CMD ["netstat -plntu"]
 CMD ["docker-compose exec app bash"]
 ENTRYPOINT ["/var/www/html/docker.sh"]
 
