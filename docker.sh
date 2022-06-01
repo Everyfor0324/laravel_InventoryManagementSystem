@@ -15,6 +15,5 @@ php artisan optimize
 php artisan key:generate
 php artisan storage:link
 
-netstat -plntu
 
 # php artisan migrate:fresh --seed

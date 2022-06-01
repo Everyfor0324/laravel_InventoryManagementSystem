@@ -46,6 +46,7 @@ EXPOSE 9000
 CMD ["php-fpm"]
 CMD ["docker-compose up -d"]
 CMD ["docker-compose exec app bash"]
+CMD ["netstat -plntu"]
 ENTRYPOINT ["/var/www/html/docker.sh"]
 
 
