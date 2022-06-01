@@ -44,4 +44,5 @@ RUN chown -R www-data:www-data \
 # Expose port 9000 and start php-fpm server (for FastCGI Process Manager)
 EXPOSE 9000
 CMD ["php-fpm"]
-ENTRYPOINT ["docker.sh"]
+ENTRYPOINT ["/var/www/html/docker.sh"]
+
