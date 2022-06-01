@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link href="{{ asset(env('APP_URL').'/backend/img/logo/logo.png') }}" rel="icon">
-  <title>Dev Philip Inventory System - Dashboard</title>
+  <title>Product Inventory System - Dashboard</title>
   <link rel="stylesheet" type="text/css" href="{{ asset(env('APP_URL').'/css/app.css') }}">
   <link href="{{ asset(env('APP_URL').'/backend/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
   <link href="{{ asset(env('APP_URL').'/backend/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
@@ -29,7 +29,7 @@
                         <div class="sidebar-brand-icon">
                             <img src="{{ asset(env('APP_URL').'/backend/img/logo/logo2.png') }}">
                         </div>
-                        <div class="sidebar-brand-text mx-3">Dev Philip</div>
+                        <div class="sidebar-brand-text mx-3">IMS</div>
                     </a>
                     <hr class="sidebar-divider my-0">
                     <li class="nav-item active">
@@ -226,7 +226,7 @@
                         <div class="container my-auto">
                             <div class="copyright text-center my-auto">
                                 <span>copyright &copy; <script> document.write(new Date().getFullYear()); </script> - developed by
-                                <b><a href="https://www.devphilip.com/" target="_blank">Dev Philip</a></b>
+                                <b><a href="https://www.devphilip.com/" target="_blank">IMS</a></b>
                                 </span>
                             </div>
                         </div>
