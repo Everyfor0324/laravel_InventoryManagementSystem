@@ -40,9 +40,10 @@ COPY . /var/www/html
 RUN chown -R www-data:www-data \
         /var/www/html/storage \
         /var/www/html/bootstrap/cache
+RUN chmod +x /var/www/html/docker.sh
 
 EXPOSE 9000
-EXPOSE 80
+CMD ["php-fpm"]
 ENTRYPOINT ["/var/www/html/docker.sh"]
 
 
