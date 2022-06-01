@@ -21,7 +21,6 @@ RUN apt-get update && apt-get install -y \
     git \
     libonig-dev \
     curl
-RUN apt-get install -y php7.4-sqlite3
 
 # Clear cache
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
