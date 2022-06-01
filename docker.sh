@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cd /var/www/html
+
 cp .env.docker .env
 
 docker-compose up -d
