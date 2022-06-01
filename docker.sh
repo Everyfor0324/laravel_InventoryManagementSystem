@@ -1,9 +1,9 @@
 #!/bin/sh
 
-docker-compose build app
-docker-compose up -d
+cp .env.docker .env
 
-cd /var/www
+docker-compose up -d
+docker-compose exec app bash
 
 # php artisan migrate:fresh --seed
 php artisan view:clear 
