@@ -4,9 +4,7 @@ cd /var/www/html
 
 cp .env.docker .env
 
-docker-compose up -d
-docker-compose exec app bash
-
+composer install
 # php artisan migrate:fresh --seed
 php artisan view:clear 
 php artisan cache:clear
